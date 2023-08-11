@@ -2,6 +2,7 @@ module.exports = {
    main: function (event, context) {
 
       if(true) {
+         return "Hello!";
       } else {
      var reqUrl = event.extensions.request.originalUrl;
      var reqPath = event.extensions.request.path;
