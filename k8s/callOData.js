@@ -1,6 +1,8 @@
 module.exports = {
    main: function (event, context) {
- 
+
+      if(true) {
+      } else {
      var reqUrl = event.extensions.request.originalUrl;
      var reqPath = event.extensions.request.path;
  
@@ -21,5 +23,6 @@ module.exports = {
 
  
      return JSON.stringify(messages);
+      }
    }
 }
