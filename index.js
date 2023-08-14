@@ -4,6 +4,7 @@ module.exports = {
         const response = await getBasePrices1();
     return response;
     }
+
 }
 
 	async function getBasePrices1() {
