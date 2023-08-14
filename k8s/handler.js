@@ -2,7 +2,6 @@ module.exports = {
    main: function (event, context) {
 		console.log("Here we go"); 
          return "Hello :-)!!!";
-         console.log("Here we went"); 
    }
 }
 
