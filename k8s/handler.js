@@ -6,16 +6,15 @@
 //}
 //
 
-const oDataBasePrice = require("./OData/BasePrices")
+const const od = require("./OData/service")
 module.exports = {
 	main: async function (event, context) {
-		console.log("Here we go");
-        const response = await getBasePrices1();
-    return response;
+		console.log("Step 1");
+		const { basePricesApi } = od();
+		console.log("Step 2");
+		const resultPromise = basePricesApi.requestBuilder().getAll().top(5).execute({ destinationName: 'myDestinationName' });
+        console.log("Step 3");
+    return "done";
     }
 
 }
-
-	async function getBasePrices1() {
-    	return oDataBasePrice.requestBuilder().getAll().execute({ destinationName: 'myDestinationName' });
-    }
