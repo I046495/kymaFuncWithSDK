@@ -6,7 +6,8 @@
 //}
 //
 
-const oData = require("./OData/service")
+const oData = require("./OData/service");
+
 module.exports = {
 	main: async function (event, context) {
 		console.log("Step 1");
