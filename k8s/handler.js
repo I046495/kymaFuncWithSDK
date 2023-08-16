@@ -31,7 +31,7 @@ module.exports = {
 //		console.log(bprb());
 //		const bp = all.BasePricesRequestBuilder();
 //		console.log("Step 3");
-//		const resultPromise = bp.getAll().top(5).execute({ destinationName: 'myDestinationName' });
+		const resultPromise = odfn.basePricesApi.requestBuilder().getAll().top(5).execute({ destinationName: 'myDestinationName' });
 //        console.log("Step 4");
     return "done";
     }
