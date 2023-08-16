@@ -13,7 +13,7 @@ module.exports = {
 		console.log("Step 1");
 		const { basePricesApi } = oData.basePricesApi;
 		console.log("Step 2");
-		const resultPromise = basePricesApi.requestBuilder().getAll().top(5).execute({ destinationName: 'myDestinationName' });
+		const resultPromise = basePricesApi().requestBuilder().getAll().top(5).execute({ destinationName: 'myDestinationName' });
         console.log("Step 3");
     return "done";
     }
