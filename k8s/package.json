@@ -1,7 +1,6 @@
 {
   "name": "first-git-func",
   "version": "1.0.0",
-  "type": "module",
   "description": "Example function to call Odata",
   "author": "Ashish Bansal"
 }
