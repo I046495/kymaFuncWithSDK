@@ -27,6 +27,8 @@ module.exports = {
 		console.log(odfn.basePricesApi)
 		console.log("new odfn.basePricesApi()");
 		console.log(new (odfn.basePricesApi)());
+		console.log("odfn.basePricesApi.requestBuilder()");
+		console.log(odfn.basePricesApi.requestBuilder());
 //		console.log("bprb()");
 //		console.log(bprb());
 //		const bp = all.BasePricesRequestBuilder();
