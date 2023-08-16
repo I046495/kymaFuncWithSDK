@@ -7,16 +7,16 @@
 //
 
 const all = require("./OData");
-const oData = require("./OData/service");
+//const oData = require("./OData/service");
 //import { myEntityService } from './OData';
 
 module.exports = {
 	main: async function (event, context) {
-		console.log("all:");
-		console.log(all);
-		console.log("all.oData:");
+//		console.log("all:");
+//		console.log(all);
+//		console.log("all.oData:");
 		const od = all.oData;
-		console.log(od);
+//		console.log(od);
 //		console.log("all.BasePricesRequestBuilder:");
 //		const bprb = all.BasePricesRequestBuilder;
 //		console.log(bprb);
