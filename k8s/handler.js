@@ -14,7 +14,7 @@ module.exports = {
 	main: async function (event, context) {
 		console.log("Step 1");
 		console.log(all);
-		console.log(oData);
+		console.log(all.oData());
 		console.log("Step 2");
 //		const basePricesApi = oData.basePricesApi;
 //		const basePricesApi = myEntityService();
