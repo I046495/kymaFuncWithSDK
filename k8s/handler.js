@@ -12,7 +12,7 @@ module.exports = {
 	main: async function (event, context) {
 		const od = all.oData;
 		const odfn = od();
-		const resultPromise = odfn.basePricesApi.requestBuilder().getAll().top(5).execute({ destinationName: 'Kyma_Cf_Test_Destination' });
+		const resultPromise = odfn.basePricesApi.requestBuilder().getAll().top(5).execute({ destinationName: 'PAULAN_ODATA_DEST' });
     return "done";
     }
 
