@@ -1,5 +1,5 @@
 //const all = require("OData");
-const all = require("odata");
+const all = require("OData/index.js");
 
 module.exports = {
 	main: async function (event, context) {
