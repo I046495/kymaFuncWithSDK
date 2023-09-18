@@ -1,0 +1,7 @@
+{
+  "resources/service-specs/OData.edmx": {
+    "packageName": "odata",
+    "directoryName": "OData",
+    "basePath": "/"
+  }
+}
