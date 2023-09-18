@@ -2,5 +2,8 @@
   "name": "paulans-finest",
   "version": "1.0.0",
   "description": "Example function to call Odata",
-  "author": "Ashish Bansal"
+  "author": "Ashish Bansal",
+  "dependencies": {
+    "OData": "file:../OData"
+  }
 }
