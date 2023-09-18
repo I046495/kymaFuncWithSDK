@@ -1,8 +1,8 @@
 {
   "name": "paulans-finest",
   "version": "1.0.0",
-  "description": "Example function to call Odata",
-  "author": "Ashish Bansal",
+  "description": "Use Data access client exposed as node.js module",
+  "author": "Andreas Paul",
   "dependencies": {
     "OData": "file:../OData"
   }
