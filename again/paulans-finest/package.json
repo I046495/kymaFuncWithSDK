@@ -4,6 +4,7 @@
   "description": "Use Data access client exposed as node.js module",
   "author": "Andreas Paul, really",
   "dependencies": {
-    "OData": "file:../OData"
+    "@sap-cloud-sdk/odata-common": "^3.5.0",
+    "@sap-cloud-sdk/odata-v2": "^3.5.0"
   }
 }
