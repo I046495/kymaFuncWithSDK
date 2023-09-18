@@ -1,4 +1,4 @@
-const all = require("./OData");
+const all = require("../OData");
 
 module.exports = {
 	main: async function (event, context) {
