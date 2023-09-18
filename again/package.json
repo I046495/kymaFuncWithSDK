@@ -1,0 +1,13 @@
+{
+  "name": "paulans-finest-root",
+  "version": "1.0.0",
+  "description": "Use Data access client exposed as node.js module",
+  "author": "Andreas Paul, really",
+  "devDpendencies": {
+    "OData": "file:../OData"
+  },
+  "devDependencies": {
+    "@sap-cloud-sdk/generator": "^3.5.0",
+    "@sap-cloud-sdk/odata-v2": "^3.5.0"
+  }
+}
