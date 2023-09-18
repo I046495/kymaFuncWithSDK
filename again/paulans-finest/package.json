@@ -2,7 +2,7 @@
   "name": "paulans-finest",
   "version": "1.0.0",
   "description": "Use Data access client exposed as node.js module",
-  "author": "Andreas Paul",
+  "author": "Andreas Paul, really",
   "dependencies": {
     "OData": "file:../OData"
   }
