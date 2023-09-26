@@ -1,0 +1,15 @@
+{
+  "name": "first-git-func",
+  "version": "1.0.0",
+  "description": "Example function to call Odata",
+  "author": "Ashish Bansal",
+  "scripts": {
+    "execute-script": "node handler.js"
+  },
+  "main": "OData/",
+  "license": "SAP License",
+  "dependencies": {
+    "@sap-cloud-sdk/odata-v2": "^3.5.0",
+    "@sap-opps/odata-sdk": "^1.0.0"
+  }
+}
