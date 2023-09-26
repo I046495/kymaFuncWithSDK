@@ -6,7 +6,10 @@
 //}
 //
 
-const all = require("./OData");
+
+const all = require("@sap-opps/odata-sdk");
+const util = require('util');
+console.log(util.inspect(all));
 
 module.exports = {
 	main: async function (event, context) {

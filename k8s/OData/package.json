@@ -21,6 +21,7 @@
     "**/*-csn.json"
   ],
   "scripts": {
+    "publish-custom": "npm version patch && npm publish --access public",
     "compile": "npx tsc"
   },
   "dependencies": {
